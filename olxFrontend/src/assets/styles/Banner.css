@@ -1,0 +1,12 @@
+
+
+.banner {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.banner img {
+    width: 100%;
+}

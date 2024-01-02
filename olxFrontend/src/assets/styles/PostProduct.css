@@ -1,0 +1,79 @@
+
+.mainPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.mainPost .header {
+    height: 4em;
+    background-color: #f1f1f1;
+    width: 98.9vw;
+}
+
+.postAd {
+    border: 1px solid gray;
+    width: 60vw;
+    /* margin-left: 12em; */
+}
+
+button {
+    /* margin-left: -63em; */
+    /* padding: 1em;
+    margin-top: 1em;
+    font-weight: 700; */
+}
+
+.mainPost .setDetails {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 20em;
+    justify-content: space-evenly;
+}
+
+.setPrice {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    /* height: 4em; */
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+}
+
+.setPhotos {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    /* height: 5em; */
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+}
+
+.check {
+    margin-left: 3em;
+}
+
+.check input {
+    height: 45px;
+    border: 0.3px solid gray;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+textarea {
+    outline: none;
+    border: 0.3px solid gray;
+    border-radius: 4px;
+}
+
+.arrow {
+    height: 20px;
+    /* background-color: red; */
+    padding: 1em;
+    margin-left: 1em;
+    margin-top: 5px;
+    cursor: pointer;
+}

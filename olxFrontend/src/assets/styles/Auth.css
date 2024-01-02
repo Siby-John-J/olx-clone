@@ -1,0 +1,93 @@
+
+.login div {
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.loginModel {
+    height: 36em;
+    width: 22em;
+    background-color: rgb(154, 154, 154);
+    position: absolute;
+    inset: 0;
+    top: 5em;
+    left: 36em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    font-family: sans-serif;
+    z-index: 33;
+    backdrop-filter: blur(0);
+}
+
+.loginModel input {
+    height: 32px;
+    width: 22em;
+    margin: 19px 0;
+    outline: none;
+}
+
+.loginModel h3 {
+    margin: 6px 0;
+}
+
+.loginModel .logo {
+    /* background-color: green; */
+    height: 4em;
+    width: 17em;
+    margin-top: 1em;
+}
+
+.loginModel .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.loginModel .login {
+    background-color: #211d25;
+    border: none;
+    height: 3em;
+    width: 16em;
+    font-size: 19px;
+    color: white;
+    margin-top: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.no-ac {
+    margin-top: 2em;
+}
+
+.signUp {
+    width: 10em;
+    border-radius: 3px;
+    border: none;
+    background-color: gray;
+    color: white;
+    margin-top: 2em;
+}
+
+.loginModel img {
+    height: 36px;
+    margin-left: 19em;
+}
+
+.loginModel .logo img {
+    position: absolute;
+    inset: 0;
+    left: -11em;
+    top: 4em;
+    height: 43px;
+}
+
+.loginModel button {
+    width: 9em;
+    background: no-repeat;
+    border: 1px solid black;
+    color: black;
+    height: 3em;
+}
